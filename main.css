@@ -1,1 +1,225 @@
+:root {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size:1.1em;
+  line-height: 1.5;
+}
 
+h1{
+  font-family: 'Caladea', serif;
+  font-size: 35px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media only screen and
+(min-width: 600px) {
+
+  .animationtechniques {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .asilentvoice {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bighero6 {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .disabilitiesinanimation {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .graveofthefireflies {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .individualityinanimation {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobpsycho100opening {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .representationinanimation{
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spiderman {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .stevenuniverse {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .studiolaika {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .themeofmentalillnesshealth {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .themeofwar {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and
+(min-width: 900px) {
+
+  .animationtechniques {
+    max-width: 50vw;
+  }
+  .asilentvoice {
+    max-width: 50vw;
+  }
+  .bighero6 {
+    max-width: 50vw;
+  }
+  .disabilitiesinanimation {
+    max-width: 50vw;
+  }
+  .graveofthefireflies{
+    max-width: 50vw;
+  }
+  .individualityinanimation {
+    max-width: 50vw;
+  }
+  .mobpsycho100opening {
+    max-width: 50vw;
+  }
+  .representationinanimation {
+    max-width: 50vw;
+  }
+  .spiderman {
+    max-width: 50vw;
+  }
+  .stevenuniverse {
+    max-width: 50vw;
+  }
+  .studiolaika {
+    max-width: 50vw;
+  }
+  .themeofmentalillnesshealth {
+    max-width: 50vw;
+  }
+  .themeofwar {
+    max-width: 50vw;
+  }
+  p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.menu{
+  padding: 1em;
+  width: 100%;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    <! I want to create space between the menu items but I don't know how to do that. !>
+}
+
+.animationtechniques ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.disabilitiesinanimation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.individualityinanimation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.representationinanimation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.themeofmentalillnesshealth ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.themeofwar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+}
+
+.newsfeed {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+}
